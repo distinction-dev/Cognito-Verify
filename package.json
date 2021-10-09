@@ -1,0 +1,22 @@
+{
+  "name": "Cognito-Verify",
+  "version": "1.0.0",
+  "description": "Verify a Cognito Token",
+  "main": "./lib/index.js",
+  "author": {
+    "name": "@killdozerx2"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.4.3"
+  },
+  "files": [
+    "./bin/*",
+    "./lib/*"
+  ],
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  }
+}
